@@ -1,0 +1,8 @@
+CREATE_POST = "/post"
+STATS = "/me"
+TOP = "/top"
+REPLENISH = "/r"
+WITHDRAW = "/w"
+CHANGE_LANGUAGE = "/lang"
+HELP = "/help"
+START = "/start"

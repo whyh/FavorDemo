@@ -1,0 +1,19 @@
+service: dealbot
+runtime: python37
+instance_class: B1
+
+entrypoint: gunicorn main:app -w 1 -k aiohttp.GunicornWebWorker -b :$PORT
+
+basic_scaling:
+  max_instances: 2
+  idle_timeout: 5m
+
+inbound_services:
+  - warmup
+
+handlers:
+  - url: '/.*'
+    script: auto
+
+includes:
+  - common/secrets.yaml

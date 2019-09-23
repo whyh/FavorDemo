@@ -1,0 +1,19 @@
+service: default
+runtime: python37
+instance_class: F1
+
+entrypoint: gunicorn main:app -w 1 -k aiohttp.GunicornWebWorker -b :$PORT
+
+automatic_scaling:
+  min_instances: 1
+  max_concurrent_requests: 20
+  target_throughput_utilization: 0.8
+  target_cpu_utilization: 0.95
+  min_pending_latency: 300ms
+  max_pending_latency: automatic
+
+inbound_services:
+  - warmup
+
+includes:
+  - common/secrets.yaml
