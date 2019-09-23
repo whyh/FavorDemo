@@ -1,5 +1,5 @@
 # FavourDemo
-### Freelance service for students Based on Telegram Messanger
+### Freelance service for students Based on Telegram Messenger
 
 Not officially released yet, but available [here](https://t.me/FavourAccountBot)
 ## About
