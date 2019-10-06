@@ -1,7 +1,7 @@
-# FavourDemo
+# FavorDemo
 ### Freelance service for students Based on Telegram Messenger
 
-Not officially released yet, but available [here](https://t.me/FavourAccountBot)
+Not officially released yet, but available [here](https://t.me/FavorlBot)
 ## About
 **Favour** is designed in the form of low-cost scalable microservices. Bots are hosted with `App Engine`, 
 and `Compute Engine` is used to perform API requests from reserved static Ip
