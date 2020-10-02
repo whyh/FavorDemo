@@ -6,17 +6,17 @@ Favor is a freelance service for students Based on Telegram Messenger. Not offic
 
 
 ## About
-Designed in the form of low-cost scalable microservices. Hosted in `GCP`
+Designed in a form of low-cost, scalable services, hosted in `GCP`
 
-Automated payments with Monobank API and PrivatBank API
-Created fan-out service for a topic subscription with Pub/Sub, Cloud Tasks, and Cloud Scheduler  
-Experimented with GCP hosting options GCE, GAE, Cloud Run, Cloud Functions, and AWS alternatives
+Utilizes MTProto Telegram API for clients, because it offers extended feature set and more server locations
+
+Payments are automated with Monobank API and PrivatBank API
 
 
 ## Direct dependencies
 - `aiogram` and `telethon` Telegram API wrappers  
 - `aiohttp` web server and client  
-- DatastoreORM](https://github.com/whyh/DatastoreODM) module  
+- [DatastoreORM](https://github.com/whyh/DatastoreODM)
 - `google-cloud-tasks`, `google-protobuf` queue service  
 - `beautifulsoup4`, `xml` parsers  
 - `gunicorn` WSGI server, and `honcho`  
