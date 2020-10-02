@@ -9,7 +9,7 @@ Also check the [UserGuide & FAQ](https://telegra.ph/Favor-10-02)
 ## About
 Designed in a form of low-cost, scalable services, hosted in `GCP`
 
-Utilizes MTProto Telegram API for clients, because it offers extended feature set and more server locations
+Utilized MTProto Telegram API for clients, because it offers extended feature set and more server locations
 
 Payments are automated with Monobank API and PrivatBank API
 
