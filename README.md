@@ -25,4 +25,4 @@ Payments are automated with Monobank API and PrivatBank API
 
 ## Demo
 
-This isn't original repo, neither the code is final or executable. It only serves as tool to demonstrate, on some code examples, structure of Favor project and the idea behind it
+This isn't original repo, neither the code is final or executable. It only serves as a tool to demonstrate, on some code examples, structure of Favor project and the idea behind it
