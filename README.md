@@ -1,7 +1,9 @@
 # FavorDemo
 ### Demo code for Favor
 
-Favor is a freelance service for students Based on Telegram Messenger. Not officially released yet, but available [here](https://t.me/FavorlBot). Also check the [UserGuide & FAQ](https://telegra.ph/Favor-10-02)
+Favor is a freelance service for students Based on Telegram Messenger. Not officially released yet, but available [here](https://t.me/FavorlBot)
+
+Also check the [UserGuide & FAQ](https://telegra.ph/Favor-10-02)
 
 
 ## About
