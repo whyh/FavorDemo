@@ -21,3 +21,8 @@ Payments are automated with Monobank API and PrivatBank API
 - `google-cloud-tasks`, `google-protobuf` queue service  
 - `beautifulsoup4`, `xml` parsers  
 - `gunicorn` WSGI server, and `honcho`  
+
+
+## Demo
+
+This isn't original repo, neither the code is final or executable. It only serves as tool to demonstrate on some implementation examples the idea and structure of the Favor project
