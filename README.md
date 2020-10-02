@@ -1,14 +1,22 @@
 # FavorDemo
-### Freelance service for students Based on Telegram Messenger
+### Demo code for the Favor freelance service
 
-Not officially released yet, but available [here](https://t.me/FavorlBot)
+
+Favor is a freelance service for students Based on Telegram Messenger. Not officially released yet, but available [here](https://t.me/FavorlBot)
+
+
 ## About
-**Favour** is designed in the form of low-cost scalable microservices. Bots are hosted with `App Engine`, 
-and `Compute Engine` is used to perform API requests from reserved static Ip
+Designed in the form of low-cost scalable microservices. Hosted in `GCP`
+
+Automated payments with Monobank API and PrivatBank API
+Created fan-out service for a topic subscription with Pub/Sub, Cloud Tasks, and Cloud Scheduler  
+Experimented with GCP hosting options GCE, GAE, Cloud Run, Cloud Functions, and AWS alternatives
+
+
 ## Direct dependencies
-- `aiogram` and `telethon` Telegram API wrappers
+- `aiogram` and `telethon` Telegram API wrappers  
 - `aiohttp` web server and client  
-- Custom `datastore_orm` "module" based on `google-cloud-datastore` Datastore client  
+- DatastoreORM](https://github.com/whyh/DatastoreODM) module  
 - `google-cloud-tasks`, `google-protobuf` queue service  
-- `beautifulsoup4` `xml` parser  
+- `beautifulsoup4`, `xml` parsers  
 - `gunicorn` WSGI server, and `honcho`  
